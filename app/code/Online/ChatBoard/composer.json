@@ -1,0 +1,21 @@
+{
+  "name": "online/chatboard",
+  "description": "online chatboard module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "mohithdeveloper@gmail.com",
+      "name": "Mohith"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Online\\ChartBoard\\": ""
+    }
+  }
+}

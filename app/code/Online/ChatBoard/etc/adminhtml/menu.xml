@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Online_ChatBoard::online_chatBoard" title="Online Chat Board" module="Online_ChatBoard"
+             sortOrder="30"
+             resource="Online_ChatBoard::online_chatBoard"/>
+
+        <add id="Online_ChatBoard::online_chatBoard_nowonlinecustomers" title="Now Online Customers"
+             module="Online_ChatBoard"
+             sortOrder="20" parent="Online_ChatBoard::online_chatBoard" action="customer/online"
+             resource="Online_ChatBoard::online_chatBoard_nowonlinecustomers"/>
+    </menu>
+</config>
+
